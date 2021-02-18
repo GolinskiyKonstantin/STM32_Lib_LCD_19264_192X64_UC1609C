@@ -10,7 +10,7 @@ STM32 Lib LCD 19264 192X64 UC1609C
 Пример в файле example.txt
 
  ## ФОТО 192X64 UC1609C:
-![](https://github.com/GolinskiyKonstantin/STM32_Lib_LCD_19264_192X64_UC1609C/blob/master/image/color.jpg)
-![](https://github.com/GolinskiyKonstantin/STM32_Lib_LCD_19264_192X64_UC1609C/blob/master/image/UC1609C.jpg)
+![](https://github.com/GolinskiyKonstantin/STM32_Lib_LCD_19264_192X64_UC1609C/blob/main/image/color.jpg)
+![](https://github.com/GolinskiyKonstantin/STM32_Lib_LCD_19264_192X64_UC1609C/blob/main/image/UC1609C.jpg)
 
 По всем вопросам пишите: golinskiy.konstantin@gmail.com
