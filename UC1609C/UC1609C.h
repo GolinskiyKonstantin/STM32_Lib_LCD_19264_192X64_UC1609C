@@ -91,6 +91,10 @@ extern "C" {
 			
 //##############################################################################################################
 
+// Display  Size ------------------------------------------------
+
+#define UC1609C_WIDTH	UC1609C_width
+#define UC1609C_HEIGHT	UC1609C_height
 
 #ifdef UC1609C_SPI_HAL
 	extern SPI_HandleTypeDef UC1609C_SPI_HAL;
