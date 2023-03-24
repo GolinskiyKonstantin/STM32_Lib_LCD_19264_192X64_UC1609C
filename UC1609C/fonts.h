@@ -3,7 +3,7 @@
   * @file 			( фаил ):   fonts.h
   * @brief 		( описание ):  	
   ******************************************************************************
-  * @attention 	( внимание ):  	author: Golinskiy Konstantin	e-mail: golinskiy.konstantin@gmail.com
+  * @attention 	( внимание ):
   ******************************************************************************
   
  */
@@ -137,7 +137,7 @@ char* FONTS_GetStringSize(char* str, FONTS_SIZE_t* SizeStruct, FontDef_t* Font);
  * @}
  */
  
- 
+	 
 /**
  * @}
  */
