@@ -26,6 +26,7 @@ extern "C" {
 #include "string.h"
 
 #include "stdio.h"
+#include "math.h"
 
 
 /*
@@ -99,6 +100,8 @@ extern "C" {
 #ifdef UC1609C_SPI_HAL
 	extern SPI_HandleTypeDef UC1609C_SPI_HAL;
 #endif
+
+#define PI 	3.14159265
 
 /* Absolute value */
 #define ABS(x)   ((x) > 0 ? (x) : -(x))
@@ -477,6 +480,9 @@ void UC1609C_DrawFillRoundRect(int16_t x, int16_t y, uint16_t width, uint16_t he
 void UC1609C_DrawRoundRect(int16_t x, int16_t y, uint16_t width, uint16_t height, int16_t cornerRadius, uint8_t color);
 //==============================================================================
 	
+void UC1609C_DrawArc(int16_t x0, int16_t y0, int16_t radius, int16_t startAngle, int16_t endAngle, uint8_t color, uint8_t thick);
+void UC1609C_DrawLineThick(int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint8_t color, uint8_t thick);
+
 #ifdef __cplusplus
 }
 #endif
